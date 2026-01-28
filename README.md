@@ -2,6 +2,21 @@
 
 An interactive skill for [Cortex Code](https://docs.snowflake.com/user-guide/snowflake-cortex/cortex-agents) that helps you evaluate and test Snowflake Cortex AI function pipelines.
 
+## Installation
+
+Install this skill in Cortex Code using the following command:
+
+```bash
+cortex skill add https://github.com/sfc-gh-nejain/cortex-ai-evaluation-skill
+```
+
+After installation, the skill will be available in your Cortex Code environment and will automatically trigger on evaluation-related tasks.
+
+To verify installation:
+```bash
+cortex skill list
+```
+
 ## Overview
 
 When processing unstructured data with Cortex AI functions like `AI_EXTRACT`, `AI_CLASSIFY`, or `AI_COMPLETE`, you need to validate that your pipeline produces accurate, high-quality results. This skill provides a guided, interactive experience for setting up comprehensive evaluations.
